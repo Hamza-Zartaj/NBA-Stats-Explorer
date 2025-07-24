@@ -9,6 +9,9 @@ def create_basic_visualizations(df_selected_team):
         st.warning("No data available for visualizations.")
         return
 
+    # Create a copy to avoid SettingWithCopyWarning
+    df_selected_team = df_selected_team.copy()
+
     # 🎯 Scoring Efficiency
     st.header('🎯 Scoring Efficiency Analysis')
     fig, ax = plt.subplots(figsize=(8, 6))
