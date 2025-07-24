@@ -77,7 +77,7 @@ A comprehensive NBA player statistics analysis and exploration tool built with S
 
 5. **Run the application**:
    ```bash
-   streamlit run index.py
+   streamlit run app.py
    ```
 
 6. **Access the application**:
