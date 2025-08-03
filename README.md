@@ -159,9 +159,6 @@ NBA-Stats-Explorer/
    streamlit run app.py
    ```
 
-5. **Access the application**:
-   Open your browser and navigate to `http://localhost:8501`
-
 ## 📋 Usage Guide
 
 ### Basic Operations
@@ -252,7 +249,7 @@ This project demonstrates:
 **Data Loading Issues**:
 - Ensure stable internet connection for web scraping
 - Check Basketball Reference website availability
-- Verify year parameter is within valid range (1980-2025)
+- Verify year parameter is within valid range (1980-2024)
 
 **Package Conflicts**:
 - Use virtual environment to isolate dependencies
